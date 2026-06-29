@@ -16,6 +16,10 @@ This project explores a semantic retrieval-based cold-start forecasting framewor
 
 The cold-start route retrieves similar existing products using semantic embeddings built from product attributes and demand behavior, then transfers Route A model forecasts from those similar products. This avoids leaking same-date actual sales from peer products into the cold-start forecast.
 
+## Dataset
+
+This project uses the M5 Forecasting dataset.
+The raw data is not included in this repository due to GitHub's file size limits. Download the dataset and place the required CSV files in `data/raw/`.
 
 ## Project Structure
 
